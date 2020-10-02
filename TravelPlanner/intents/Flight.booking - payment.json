@@ -1,0 +1,34 @@
+{
+  "id": "e5a3dc36-f647-416f-8549-b8e6b5224cf1",
+  "name": "Flight.booking - payment",
+  "auto": true,
+  "contexts": [
+    "Flightbooking-BookSeat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "payment",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

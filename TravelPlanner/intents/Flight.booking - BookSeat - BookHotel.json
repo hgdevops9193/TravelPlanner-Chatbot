@@ -1,0 +1,87 @@
+{
+  "id": "ca201722-9275-49f8-bd31-09c64380801f",
+  "name": "Flight.booking - BookSeat - BookHotel",
+  "auto": true,
+  "contexts": [
+    "Flightbooking-BookSeat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flightbooking.Flightbooking-yes.Flightbooking-BookSeat-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6e803c9d-8ae9-4698-bbf3-baeeb0a966fe",
+          "required": true,
+          "dataType": "@Hotels",
+          "name": "hotels",
+          "value": "$hotel",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please select hotel from the list. Taj, Hyatt, Trident, Westin"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "28b24520-7198-458f-b8b8-b8377f97017e",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#Flightbooking-followup.date",
+          "isList": false
+        },
+        {
+          "id": "0e1119db-e826-4e13-991d-e08d65f545ad",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geocity",
+          "value": "$geocity",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#Flightbooking-followup.geocity1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "$hotels booked in $geocity for $date."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thanks for booking with us. Have a nice trip :)"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

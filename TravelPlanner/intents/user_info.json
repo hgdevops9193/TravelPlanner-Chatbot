@@ -1,0 +1,51 @@
+{
+  "id": "12b3ecb6-2909-4a49-9acd-6f80c535cfc4",
+  "name": "user_info",
+  "auto": true,
+  "contexts": [
+    "request_permission"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user_info",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "733002cc-197b-4f0f-8afe-d9d225f63269",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "dest",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#request_permission.geocity",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_PERMISSION"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

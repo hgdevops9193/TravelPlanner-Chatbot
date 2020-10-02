@@ -1,0 +1,71 @@
+{
+  "id": "edf39da4-416a-42ea-9e93-5a78edbdef6b",
+  "parentId": "f34880fd-6769-4d42-8830-5ade7d9c75ff",
+  "rootParentId": "66b34ef9-00d9-4586-9c9c-1e93665308f7",
+  "name": "Flight.booking - NoBookSeat - NoBookHotel",
+  "auto": true,
+  "contexts": [
+    "Flightbooking-no-followup",
+    "Flightbooking-NoBookSeat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flightbooking.Flightbooking-no.Flightbooking-NoBookSeat-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Thanks for booking with us. Have a nice trip",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Waiting for Hotel booking",
+              "description": "",
+              "contentUrl": "https://raw.githubusercontent.com/anars/blank-audio/master/15-seconds-of-silence.mp3"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Book a hotel"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

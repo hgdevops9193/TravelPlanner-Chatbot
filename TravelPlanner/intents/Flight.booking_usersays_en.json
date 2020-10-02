@@ -1,0 +1,317 @@
+[
+  {
+    "id": "85a0ad1f-3bf7-4816-8f2d-c84c2deb353a",
+    "data": [
+      {
+        "text": "Book ",
+        "userDefined": false
+      },
+      {
+        "text": "Standard",
+        "alias": "FlightClass",
+        "meta": "@FlightClass",
+        "userDefined": false
+      },
+      {
+        "text": " flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geocity",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "alias": "geocity1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "next friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " at 1 PM",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d15dbcf-149a-4e69-b310-521e046fd379",
+    "data": [
+      {
+        "text": "Book flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geocity",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "alias": "geocity1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " for next ",
+        "userDefined": false
+      },
+      {
+        "text": "friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "994fc1dd-dd72-467e-b180-6cbfb4aa4df7",
+    "data": [
+      {
+        "text": "Book flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow at 1 PM",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "658e56dc-6429-4a18-b395-2f011d00eb68",
+    "data": [
+      {
+        "text": "Book ",
+        "userDefined": false
+      },
+      {
+        "text": "standard",
+        "alias": "FlightClass",
+        "meta": "@FlightClass",
+        "userDefined": true
+      },
+      {
+        "text": " class flight to ",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "alias": "geocity1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "865eea67-a543-46d7-aa32-ec9449f9a6b8",
+    "data": [
+      {
+        "text": "Book ",
+        "userDefined": false
+      },
+      {
+        "text": "business",
+        "alias": "FlightClass",
+        "meta": "@FlightClass",
+        "userDefined": true
+      },
+      {
+        "text": " flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geocity",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "alias": "geocity1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7097c9c1-9ea0-45cb-ad58-9d674efafcb2",
+    "data": [
+      {
+        "text": "Book ",
+        "userDefined": false
+      },
+      {
+        "text": "economy",
+        "alias": "FlightClass",
+        "meta": "@FlightClass",
+        "userDefined": true
+      },
+      {
+        "text": " flight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "017606d5-d853-4cf4-9311-503eff8585a2",
+    "data": [
+      {
+        "text": "Book a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "November 20th , 2020",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "28734fa4-86b0-4446-aa14-847f95f0a3cb",
+    "data": [
+      {
+        "text": "Book a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2efe1cb9-edc5-48d9-a5e1-c27552af7f85",
+    "data": [
+      {
+        "text": "Reserve a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "next tuesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "706761d8-c04e-4df4-a64b-49ecef2392a0",
+    "data": [
+      {
+        "text": "Book a flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "alias": "geocity",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "alias": "geocity1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5a020035-9de9-4862-a79e-7de624dbe0d7",
+    "data": [
+      {
+        "text": "Book a flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geocity",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "alias": "geocity1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

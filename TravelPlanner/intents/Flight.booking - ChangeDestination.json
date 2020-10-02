@@ -1,0 +1,91 @@
+{
+  "id": "681a8f5a-e05d-49ed-998a-3579ea43cd7a",
+  "parentId": "66b34ef9-00d9-4586-9c9c-1e93665308f7",
+  "rootParentId": "66b34ef9-00d9-4586-9c9c-1e93665308f7",
+  "name": "Flight.booking - ChangeDestination",
+  "auto": true,
+  "contexts": [
+    "Flightbooking-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flightbooking.Flightbooking-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2231a41e-914a-442a-b346-e123e378bcc7",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geocity1",
+          "value": "$geocity1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide destination. Delhi, Mumbai, etc"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d5b2218e-6778-4452-822c-b9b7f6cc6277",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For when you want to book flight? Today, Tomorrow, Friday"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e3fb9e34-641d-4450-ba32-ccc29f0dc403",
+          "required": true,
+          "dataType": "@FlightClass",
+          "name": "FlightClass",
+          "value": "$FlightClass",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which Class you want to travel? Economy, Business, Standard"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Booking $FlightClass class flight from #Flightbooking-followup.geocity to $geocity1 for $date. Do you want to select seat?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

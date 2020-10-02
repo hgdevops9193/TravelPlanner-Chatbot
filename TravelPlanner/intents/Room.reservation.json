@@ -1,0 +1,102 @@
+{
+  "id": "d93dcecf-a5f6-48d8-8dfd-a00bd5ada508",
+  "name": "Room.reservation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.room.reservation",
+      "affectedContexts": [
+        {
+          "name": "Roomreservation-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c3d026c0-19ae-4b78-a947-545792b5980c",
+          "required": true,
+          "dataType": "@Destinations",
+          "name": "destinations",
+          "value": "$destinations",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide destination for Room booking. Most used locations: - DELHI, MUMBAI etc."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b89c6895-ff8e-4a21-b4ab-ecad442c8be9",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For when you want to book Room? Today, Tomorrow"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "99e58472-272b-4960-8c68-429e5f62520f",
+          "required": true,
+          "dataType": "@Hotels",
+          "name": "hotels",
+          "value": "$hotels",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please select from below available hotels. Hotel List - Taj, Hyatt, Trident, Westin"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "$hotels room booked for $destinations for $date",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "$hotels room booked for $destinations for $date"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

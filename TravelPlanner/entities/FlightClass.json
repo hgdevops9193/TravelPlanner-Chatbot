@@ -1,0 +1,9 @@
+{
+  "id": "e462462c-3d83-4e25-8da1-547eb00e4eb2",
+  "name": "FlightClass",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

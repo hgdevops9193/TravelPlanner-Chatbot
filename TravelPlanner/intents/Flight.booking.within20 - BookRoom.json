@@ -1,0 +1,89 @@
+{
+  "id": "1fa063e3-fa49-4f55-b55b-1af856883d0c",
+  "name": "Flight.booking.within20 - BookRoom",
+  "auto": true,
+  "contexts": [
+    "flight_booking_within20"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flightbookingwithin20.Flightbookingwithin20-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "60fed45c-6a54-4c65-a6c8-e32c88e58c05",
+          "required": true,
+          "dataType": "@Destinations",
+          "name": "destinations",
+          "value": "$destination",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide destination for Room booking. Most used locations like Delhi, Mumbai, etc."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "850b6ad2-d96d-41aa-b13b-5f0c8e3bd08a",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For when you want to book room? Today, Tomorrow"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7967625d-fe11-4055-b644-2cd6b2221c29",
+          "required": true,
+          "dataType": "@Hotels",
+          "name": "hotels",
+          "value": "$hotel",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please select from below available hotels. Taj, Trident, Hyatt, Westin"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "$hotels booked in $destinations for $date"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

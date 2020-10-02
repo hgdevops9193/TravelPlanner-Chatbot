@@ -1,0 +1,88 @@
+{
+  "id": "8b73a96a-1638-4269-aa01-aac3c85eb1c9",
+  "name": "Flight.booking - NoBookSeat - BookHotel",
+  "auto": true,
+  "contexts": [
+    "Flightbooking-no-followup",
+    "Flightbooking-NoBookSeat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flightbooking.Flightbooking-no.Flightbooking-NoBookSeat-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "168dbf29-dcd8-4cb2-ab6f-74f8d76ea5a1",
+          "required": true,
+          "dataType": "@Hotels",
+          "name": "hotels",
+          "value": "$hotels",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please select hotel from the list. Taj, Hyatt, Trident, Westin"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "0a33bb90-1a33-4462-bc4f-3d368668a660",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#Flightbooking-followup.date",
+          "isList": false
+        },
+        {
+          "id": "01f73b68-050d-489c-a411-bc83b1861108",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "destinations",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#Flightbooking-followup.geo-city1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "$hotels booked in $geo-city for $date."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thanks for booking with us. Have a nice trip :)"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

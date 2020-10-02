@@ -1,0 +1,44 @@
+{
+  "id": "9f3d1415-6ad9-4300-a852-782766d14270",
+  "name": "Flight.booking.within20",
+  "auto": true,
+  "contexts": [
+    "Flightbooking-BookSeat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "flight_booking_within20",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flightbookingwithin20-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Do you want to book room for #Flightbooking-followup.geocity1 (Selected for flight booking)?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

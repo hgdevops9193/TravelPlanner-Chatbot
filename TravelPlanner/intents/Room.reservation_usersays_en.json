@@ -1,0 +1,321 @@
+[
+  {
+    "id": "445dafaf-1ef1-404f-ad22-e076a2e36b4f",
+    "data": [
+      {
+        "text": "Book hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eefca7ec-a25f-4696-919d-5d823697e9e4",
+    "data": [
+      {
+        "text": "Book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3c9c7678-19ca-40ee-a3a2-9ddbc470a16c",
+    "data": [
+      {
+        "text": "Book room in ",
+        "userDefined": false
+      },
+      {
+        "text": "Trident",
+        "alias": "hotels",
+        "meta": "@Hotels",
+        "userDefined": false
+      },
+      {
+        "text": " hotel in ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "destinations",
+        "meta": "@Destinations",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "next friday",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "78485967-0498-4a9f-8d0f-09f8d2c1aeb4",
+    "data": [
+      {
+        "text": "Book hotel in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "alias": "destinations",
+        "meta": "@Destinations",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Wednesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c22959c2-5c48-4d8e-97e4-8113f3e03807",
+    "data": [
+      {
+        "text": "Book room in ",
+        "userDefined": false
+      },
+      {
+        "text": "Trident",
+        "alias": "hotels",
+        "meta": "@Hotels",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "next friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "95d17f65-bb18-43e4-8355-3d59d7ebe266",
+    "data": [
+      {
+        "text": "Book ",
+        "userDefined": false
+      },
+      {
+        "text": "Hyatt",
+        "alias": "hotels",
+        "meta": "@Hotels",
+        "userDefined": false
+      },
+      {
+        "text": " hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c1c83799-42cf-4bdb-898f-529520b3cd9e",
+    "data": [
+      {
+        "text": "Book room in ",
+        "userDefined": false
+      },
+      {
+        "text": "hyatt",
+        "alias": "hotels",
+        "meta": "@Hotels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "36e2c7d9-9ca4-406c-824a-15665db30a95",
+    "data": [
+      {
+        "text": "Book room for ",
+        "userDefined": false
+      },
+      {
+        "text": "November 30, 2020",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "97f70697-eae5-40c4-80d9-bc743da672d6",
+    "data": [
+      {
+        "text": "Book for ",
+        "userDefined": false
+      },
+      {
+        "text": "coming monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b4bd399e-de02-42f3-b2dd-89b0773880cc",
+    "data": [
+      {
+        "text": "Book room in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "alias": "destinations",
+        "meta": "@Destinations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b52e5f05-32c3-49ed-9830-47200b4f49cb",
+    "data": [
+      {
+        "text": "Book hotel in ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "destinations",
+        "meta": "@Destinations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d1752751-9217-4e85-81c9-d408f633862b",
+    "data": [
+      {
+        "text": "I want to book room in ",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "alias": "destinations",
+        "meta": "@Destinations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a7b99941-c4c5-4c78-9ee5-d1b8f5728c91",
+    "data": [
+      {
+        "text": "nope",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4b1690d2-69c8-4693-8bfd-c4a2c7bade34",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c49a41e2-0189-45dd-ba47-b1988c2a7d45",
+    "data": [
+      {
+        "text": "Book a room for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bca980e4-774f-4c90-8156-fc064f54e5ee",
+    "data": [
+      {
+        "text": "Book a hotel for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "975309a1-bab4-4ef0-99dd-36f738069704",
+    "data": [
+      {
+        "text": "Help me in booking a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fbdc354c-3c16-430f-bb9b-490b1c574adf",
+    "data": [
+      {
+        "text": "I want to book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

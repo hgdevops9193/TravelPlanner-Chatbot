@@ -1,0 +1,71 @@
+{
+  "id": "41d53870-77a2-494f-bec1-5d6866e0246c",
+  "name": "Flight.booking - ChangeDate",
+  "auto": true,
+  "contexts": [
+    "Flightbooking-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flightbooking.Flightbooking-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "483bd92d-6bbc-4ea5-9cc4-15f0a6631c65",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For when you want to book flight? Today, Tomorrow, Friday, Enter date"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "81a5b0c8-d41a-45ed-9891-e5b314be6f4f",
+          "required": true,
+          "dataType": "@FlightClass",
+          "name": "FlightClass",
+          "value": "$FlightClass",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which Class you want to travel? Economy, Business, Standard"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Booking for $FlightClass class flight from #Flightbooking-followup.geocity to #Flightbooking-followup.geocity1 for #Flightbooking-followup.date.original  confirmed. Do you want to select seat as well?\u0027"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

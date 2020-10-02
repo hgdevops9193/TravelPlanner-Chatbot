@@ -1,0 +1,120 @@
+{
+  "id": "66b34ef9-00d9-4586-9c9c-1e93665308f7",
+  "name": "Flight.booking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.flight.booking",
+      "affectedContexts": [
+        {
+          "name": "Flightbooking-followup",
+          "parameters": {},
+          "lifespan": 8
+        }
+      ],
+      "parameters": [
+        {
+          "id": "89f289da-7d15-42c9-9f2e-a3037fc98527",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geocity",
+          "value": "$geocity",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s the origin of flight. Most used location: - DELHI, MUMBAI etc."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "61003538-54a5-4591-91fb-30162358e5f1",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geocity1",
+          "value": "$geocity1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the destination of flight. Most used location: - DELHI, MUMBAI etc."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "9dd6726f-7f8d-4adb-81ef-d7fbf5480856",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For when you want to book flight? Today, Tomorrow, Friday, Enter date."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "72e3a21a-c82a-42d8-8707-d61e041d3201",
+          "required": true,
+          "dataType": "@FlightClass",
+          "name": "FlightClass",
+          "value": "$FlightClass",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which class you want to travel? Economy, Business, Standard."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "57ed5c93-b78c-4484-b832-1d4bfaa9dde1",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date1",
+          "value": "$date.original",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "flight_booking"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

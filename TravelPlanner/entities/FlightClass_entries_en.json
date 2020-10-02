@@ -1,0 +1,25 @@
+[
+  {
+    "value": "Economy",
+    "synonyms": [
+      "Economy",
+      "Eco",
+      "Lite"
+    ]
+  },
+  {
+    "value": "Business",
+    "synonyms": [
+      "Business",
+      "luxury",
+      "first class",
+      "firstclass"
+    ]
+  },
+  {
+    "value": "Standard",
+    "synonyms": [
+      "Standard"
+    ]
+  }
+]

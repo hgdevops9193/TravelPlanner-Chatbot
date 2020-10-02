@@ -1,0 +1,74 @@
+{
+  "id": "55634367-1d59-4982-b84e-29d713b87c80",
+  "parentId": "66b34ef9-00d9-4586-9c9c-1e93665308f7",
+  "rootParentId": "66b34ef9-00d9-4586-9c9c-1e93665308f7",
+  "name": "Flight.booking - BookSeat",
+  "auto": true,
+  "contexts": [
+    "Flightbooking-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flightbooking.Flightbooking-yes",
+      "affectedContexts": [
+        {
+          "name": "Flightbooking-BookSeat-followup",
+          "parameters": {},
+          "lifespan": 8
+        }
+      ],
+      "parameters": [
+        {
+          "id": "61f0b0a0-c609-4e1e-8eb1-e3321c8ecae1",
+          "required": true,
+          "dataType": "@FlightSeat",
+          "name": "Seatno",
+          "value": "$seatno",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Awesome, please select your seat for flight from #Flightbooking-followup.geocity to #Flightbooking-followup.geocity1 for #Flightbooking-followup.FlightClass. Select seat number.                               \n                                                      A1,A2,A3,A4,A5,A6,                                                                                                                                           \n                                                      B1,B2,B3,B4,B5,B6,                                                                                                                                       \n                                                      C1,C2,C3,C4,C5,C6"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Please complete payment by clicking here"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "https://payus.in"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

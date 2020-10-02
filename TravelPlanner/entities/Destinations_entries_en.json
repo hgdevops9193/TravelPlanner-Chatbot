@@ -1,0 +1,26 @@
+[
+  {
+    "value": "Delhi",
+    "synonyms": [
+      "Delhi"
+    ]
+  },
+  {
+    "value": "Mumbai",
+    "synonyms": [
+      "Mumbai"
+    ]
+  },
+  {
+    "value": "Bangalore",
+    "synonyms": [
+      "Bangalore"
+    ]
+  },
+  {
+    "value": "Chennai",
+    "synonyms": [
+      "Chennai"
+    ]
+  }
+]

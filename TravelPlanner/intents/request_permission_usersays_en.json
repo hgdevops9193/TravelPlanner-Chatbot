@@ -1,0 +1,50 @@
+[
+  {
+    "id": "12d23209-654d-4011-a6df-70adeb06c86e",
+    "data": [
+      {
+        "text": "Flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geocity",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e404bb0e-86d1-4ecd-9c15-e4967c0f536a",
+    "data": [
+      {
+        "text": "Book a flight to ",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "alias": "geocity",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02ad60af-23f8-441b-ab09-ffb36023ef97",
+    "data": [
+      {
+        "text": "Book a flight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "id": "5a2f3a14-0284-474f-8b2c-e8d9ba33d1a0",
+  "parentId": "55634367-1d59-4982-b84e-29d713b87c80",
+  "rootParentId": "66b34ef9-00d9-4586-9c9c-1e93665308f7",
+  "name": "Flight.booking - BookSeat - NoBookHotel",
+  "auto": true,
+  "contexts": [
+    "Flightbooking-BookSeat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flightbooking.Flightbooking-yes.Flightbooking-BookSeat-no",
+      "affectedContexts": [
+        {
+          "name": "Flightbooking-BookSeat-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Thanks for booking with us. Have a nice trip",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Hotel booking",
+              "description": "",
+              "contentUrl": "https://raw.githubusercontent.com/anars/blank-audio/master/15-seconds-of-silence.mp3"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "book a hotel"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thanks for booking with us. Have a nice trip :)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
